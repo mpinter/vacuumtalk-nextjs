@@ -17,7 +17,7 @@ export const getStaticProps: GetStaticProps = async () => {
   const entries = await getAllEntries()
   return {
     props: { entries },
-    revalide: 60,
+    revalidate: 60,
   }
 }
 
