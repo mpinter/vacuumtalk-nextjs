@@ -11,7 +11,8 @@ export const App = ({ Component, pageProps }): JSX.Element => (
       <Link href="/">Home</Link>
       <Link href="/about">About</Link>
       <Link href="/really/deep/about">Deeper About</Link>
-      <Link href="/blog">Blog Index</Link>
+      <Link href="/blog">Server Side Blog Index</Link>
+      <Link href="/blog">Static Blog Index</Link>
     </div>
     <div className="container">
       <Component {...pageProps} />
